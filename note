@@ -1,0 +1,10 @@
+Jaccard = 1 - |A & B| / |A | B|
+alpha = 0.5, means we have edge set A, B. B has a size of 1 and A has a size of 2. Also B is subset of A. 
+
+When we face different versions of packages, may have trouble.
+Assume that A has an older package, say "matplotlib==3.2.2", and B has it's new version, "matplotlib==3.4.3".
+Generally, do we expect to see LANDLORD treat them as the same package and do update? Or in what case we need to maintain older version?
+
+if we see them as same packages, we'll get a Jaccard distence of 0.5, else, we'll get a Jaccard distence of 1
+Let's try
+

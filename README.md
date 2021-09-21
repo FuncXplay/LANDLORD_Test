@@ -1,0 +1,14 @@
+# LANDLORD Algorithm Test
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4915858.svg)](https://doi.org/10.5281/zenodo.4915858) Using Binder dataset, download `binder.sqlite` file into project folder first or use binder to access from jupyter-notebook (not finished)
+
+
+
+### LANDLORD
+
+Reuse larger containers in cache
+
+When no larger containers to reuse, check Jacaard distance and, from those containers with a Jaccard distance no larger than ` ALPHA`, merge the container with the smallest Jaccard distance.
+
+Already tested with 50000 requests with `ALPHA = 0.5` and `ALPHA = 0.3`
+
