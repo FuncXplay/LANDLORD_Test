@@ -1,4 +1,3 @@
 typing
 pydantic
-sqlite3
 matplotlib
